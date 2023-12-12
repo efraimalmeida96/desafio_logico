@@ -41,6 +41,7 @@ for (let i = 0; i < elo.length; i++){
 
 console.log(" ")
 
+
 switch (true) {
     case xp < 1000:
         pontosProxNivel = 1001 - xp;
