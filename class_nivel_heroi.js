@@ -29,7 +29,7 @@ Ao final deve se exibir uma mensagem:
 "O herói de nome {nome} está no nível de {nivel}" */
 
 let heroiNome = "Opala"
-let xp = 1
+let xp = 5631
 let pontosProxNivel = 0
 let elo = ["Ferro", "Bronze", "Prata", "Ouro", "Platina", "Diamante", "Ascendente", "Imortal", "Radiante"]
 
@@ -60,7 +60,7 @@ switch (true) {
         break;
     case xp >= 5001 && xp <= 6000:
         pontosProxNivel = 6001 - xp;
-        onsole.log("O Herói de nome " + heroiNome, "está no nível Ouro");
+        console.log("O Herói de nome " + heroiNome, "está no nível Ouro");
         console.log("Faltam " + pontosProxNivel, "pontos para o próximo nível Platina.");
         break;
     case xp >= 6001 && xp <= 7000:
