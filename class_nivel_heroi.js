@@ -29,7 +29,7 @@ Ao final deve se exibir uma mensagem:
 "O herói de nome {nome} está no nível de {nivel}" */
 
 let heroiNome = "Opala"
-let xp = 5631
+let xp = 2500
 let pontosProxNivel = 0
 let elo = ["Ferro", "Bronze", "Prata", "Ouro", "Platina", "Diamante", "Ascendente", "Imortal", "Radiante"]
 
